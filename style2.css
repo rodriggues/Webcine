@@ -1,0 +1,56 @@
+/* Estilizando a seção de detalhes do Folder */
+.folder-detalhes {
+    padding: 40px 4%;
+    background-color: #161534; /* Cor de fundo da seção */
+    color: #fff;
+}
+
+.folder-detalhes h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.folder-imagem img {
+    max-width: 80%; /* Ajuste o valor conforme necessário para diminuir a largura */
+    height: auto; /* A altura será ajustada automaticamente para manter a proporção */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    display: block;
+    margin: 0 auto; /* Centraliza a imagem na tela */
+}
+
+.folder-info {
+    margin-top: 20px;
+    max-width: 600px;
+}
+
+.folder-info p {
+    font-size: 18px;
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+.folder-info .btn-voltar {
+    padding: 12px 30px;
+    background-color: #5c214a;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: 600;
+    display: inline-block;
+    margin-top: 20px;
+    transition: 0.2s;
+}
+
+.folder-info .btn-voltar:hover {
+    background-color: #7a1010;
+    transform: scale(1.05);
+}
+
+/* Layout responsivo */
+@media (max-width: 768px) {
+    .flex {
+        flex-direction: column;
+        align-items: center;
+    }
+}
